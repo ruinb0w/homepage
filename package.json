@@ -1,0 +1,14 @@
+{
+  "name": "homepage",
+  "version": "0.0.1",
+  "description": "ruinb0w's home page",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ."
+  },
+  "author": "ruinb0w",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}

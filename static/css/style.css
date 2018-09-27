@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #16a085;
+  background-color: #282c34;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+header{
+  background-color: #3e4452;
+  width: 100%;
+  height: 3em;
+  line-height: 3em;
+}
+
+.header-title {
+  margin-left: 0.5em;
+}
+
+.header-title,
+.header-nav,
+.header-nav li {
+  display: inline-block;
+}
+
+.header-nav,
+.header-nav li {
+  margin: 0 0.5em;
+}
+
+
+.header-nav {
+  float: right;
+}
+
+.header-nav li a,
+.footer-nav li a {
+  color: #c678dd;
+}
+
+.header-nav .active a{
+  color: #e06c75;
+}
+
+
+main {
+  margin-top: 2em;
+}
+
+main .hello {
+  max-width: 500px;
+  display: block;
+  margin: 0 auto;
+  padding: 2em 0;
+}
+
+.msg{
+  margin: 1em 0;
+}
+
+.msg span {
+  margin: 0 0.5em;
+}
+
+footer{
+  position: absolute;
+  bottom: 1em;
+}
+.footer-nav {
+  margin-top: 0.5em;
+}
+.footer-nav li {
+  display: none;
+  margin: 0 0.5em;
+}
+
+.footer-nav li.linkto {
+  display: inline-block;
+}
+
+@media all and (max-width: 600px) {
+  main .hello {
+    width: 100%;
+  }
+  footer {
+    display: block;
+  }
+  .header-nav li{
+    display: none;
+  }
+  .header-nav .active{
+    display: inline-block;
+  }
+  .footer-nav li {
+    display: inline-block;
+  }
+  .footer-nav .active{
+    display: none;
+  }
+}
